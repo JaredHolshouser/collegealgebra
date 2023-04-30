@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <intro>
+        <p>
+            The college algebra class's exam on logarithms is approaching at the end of the week, and the tutoring center is predictably busy with students preparing for it. One student, {{stu}}, flags you down for help.
+        </p>
+        <p><q>I solved this equation,</q> {{pn}} tell{{suf}} you. <q>But this answer's not right. I guess I don't understand logs. And our professor doesn't even let us use calculators!</q></p>
+        <p><q>Let's take a look,</q> you say reassuringly. <q>You probably understand logs just fine.</q></p>
+        <p>{{stu}}'s work is shown below.</p>
+        <p><m>\quad \text{ Solve the equation for }x\text{:} \qquad {{lhs1}} = {{rhs1}}</m></p>
+        <p><m>\quad {{lhswrong1}} = {{rhswrong1}}</m></p>
+        <p><m>\quad {{lhswrong2}} = {{rhswrong2}}</m></p>
+        <p><q>I can get to this point,</q> {{stu}} says, <q>but then I don't know what to do.</q></p>
+    </intro>
+
+    <knowl>
+    <content>
+        <p>Critique {{stu}}'s solution by pointing out one thing {{pn}} did correctly, and also at which step {{ppn}} work became incorrect.</p>
+        <p>Explain why that step is incorrect, and how to avoid it in the future.</p>
+        <p>Then, write out a complete and correct step-by-step solution of this problem.</p>
+        </content>
+    <outtro>
+        <p>{{stu}} <em>does</em> understand logs! The final step correctly uses the definition of logarithm to get the variable <m>x</m> out of the exponent.</p>
+        <p>However, {{ppn}} first step violated the order of operations: the exponent <m>{{exp1}}</m> applies only to the base <m>{{b1}}</m>, and the multiplication by <m>{{a1}}</m> happens <em>after</em> that exponential is taken. So <m>{{a1}}</m> cannot be multiplied by <m>{{b1}}</m>.</p>
+        <p>Instead, a correct solution method would begin by dividing both sides by <m>{{a1}}</m>:</p>
+        <p><m>\quad\displaystyle {\color{blue} \frac{ {\color{black} {{lhs1}} } }{ {{a1}} } }  = {\color{blue} \frac{ {\color{black} {{rhs1}} } }{ {{a1}} } }</m></p>
+        <p><m>\quad\displaystyle {{b1}}^{ {{exp1}} } = {{dda}}</m></p>
+        <p><m>\quad \displaystyle {\color{blue} \log_{ {{b1}} } } {{b1}}^{ {{exp1}} } = {\color{blue} \log_{ {{b1}} } } {{dda}}</m></p>
+        <p><m>\quad \displaystyle {{exp1}} = {{ldda}}</m></p>
+        <p><m>\quad \displaystyle \boxed{x = {{xsol}}. }</m></p>
+        </outtro>
+    </knowl>
+    <knowl>
+        <content>
+        <p><q>I think I get it now,</q> {{stu}} says tentatively. <q>Let me see if I can get this next one on my own.</q> </p>
+        <p>As {{pn}} works independently, you write out your own solution to {{ppn}} problem,</p>
+            <p><m>\quad\displaystyle \text{Solve for }y: \quad {{lhs2}} = {{rhs2}}.</m></p>
+            <p>Write a complete step-by-step solution of this equation.</p>
+            <p>Circle one step in your solution that you expect might be the most challenging step for {{stu}}. Explain what error might be made in this step, and what you would tell {{stu}} to help avoid it.</p>
+        </content>
+    <outtro>
+        <p>A complete solution might look like this:</p>
+        <p><m>\quad\displaystyle {{lhs2}} {\color{blue} {} {{op}} {{ac}} } = {{rhs2}} {{op}} {\color{blue} {{ac}} }</m></p>
+        <p><m>\qquad</m>(At that step, {{stu}} may have been tempted to combine the <m>{{c1}}</m> into the inside of the logarithm. That would violate the order of operations similar to the example above.)</p>
+        <p><m>\quad\displaystyle \log_{ {{b1}} } \bigl( {{a1}} y\bigr) = {{dmc}}</m></p>
+        <p><m>\quad\displaystyle {{a1}} y = {{b1}}^{ {{dmc}} }</m></p>
+        <p><m>\qquad</m>(At that step, {{stu}} may have wanted to divide both sides by <m>{{a1}}</m> before taking the logarithm; but again, the order of operations requires the logarithm to be dealt with first before we can divide.)</p>
+        <p><m>\quad\displaystyle {\color{blue} \frac{ {\color{black} {{a1}} y} }{ {{a1}} } } = {\color{blue} \frac{ {\color{black} {{bdmc}} } }{ {{a1}} } }</m></p>
+        <p><m>\quad\displaystyle \boxed{ y = {{ysol}}. }</m></p>
+        </outtro>
+    </knowl>
+</knowl>

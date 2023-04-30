@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <intro>
+    <p>
+            Consider the quadratic function whose vertex is the point <m>P({{h}},{{k}})</m> and whose graph also includes the point <m>Q({{x0}},{{y0}})</m>.
+        </p>
+        <p><image source="assets/PR1/generated/{{__seed__}}/parabola.png" description="Graph of quadratic function with vertex at P and including the point Q"/></p>
+    </intro>
+    
+    <knowl>
+    <content><p>Find a formula for this quadratic function, in <em>vertex</em> form <m>f(x) = \underline{\hspace{1em}}\bigl( x-\underline{\hspace{1em}} \bigr)^2 + \underline{\hspace{1em}}</m>.
+            </p>
+            <p>(Remember, this is the same as determining a transformation of the parent function <m>y = x^2</m>.)</p>
+        </content>
+    <outtro>
+        <p>
+            Vertex form: <m>\displaystyle f(x) = {{expr}}</m>
+        </p>
+        </outtro></knowl>
+    
+    <knowl>
+    
+    <content><p>Simplify the expression you found in part (a) to find a formula for this quadratic function in standard form <m>f(x) = \underline{\hspace{1em}} x^2 + \underline{\hspace{1em}}x + \underline{\hspace{1em}}</m>.
+            </p>
+        
+        </content>
+    <outtro><p>
+            Standard form: <m>\displaystyle f(x) = {{sexpr}}</m>
+        </p>
+        
+        </outtro></knowl>
+    
+    <knowl>
+    <content><p>Check your answer to part (b) by substituting the coordinates of the point <m>Q({{x0}},{{y0}})</m>. How can you tell your answer is correct?</p>
+        </content>
+    <outtro><p>
+            Substituting <m>Q({{x0}},{{y0}})</m> makes both sides of the equation equal to <m>{{q0}}</m>.
+        </p>
+        </outtro></knowl>
+</knowl>

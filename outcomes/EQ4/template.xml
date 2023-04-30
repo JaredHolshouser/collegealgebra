@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    
+    <intro>
+    <p>
+            You're back in the tutoring center, and intermediate-algebra student {{stu}} brings in a study worksheet for an upcoming exam on quadratic equations.
+        </p>
+        <p>"I'm stuck on this problem," {{pn}} tell{{suf}} you. "I solved it with factoring, but the online homework system isn't taking my answers." Fortunately, this time {{stu}} has shown {{pos}} work:
+        </p>
+        <p><m>\quad \text{Solve for }{{var}}\text{:}\qquad {{lhs1}} = {{rhs1}}</m></p>
+        <p><m>\quad \bigl({{fac1}}\bigr)\, \bigl({{fac2}}\bigr) = {{rhs1}} </m></p>
+        <p><m>\quad {{fac1}}={{rhs1}}  \quad \text{or} \quad {{fac2}}={{rhs1}}</m></p>
+        <p><m>\quad {{var}}={{wrong1}} \quad \text{or} \quad {{var}}={{wrong2}}.</m></p>
+        
+        <p>"I don't understand what I did wrong," {{stu}} tells you.</p>
+
+    </intro>
+    
+    <knowl>
+    <content>
+        <p>Critique {{stu}}'s solution by describing <em>both</em> something {{pn}} did correctly, <em>and</em> the fundamental error {{pn}} made that resulted in an incorrect answer.</p></content>
+    <outtro>
+        <p>
+            The factoring was a good idea. But, making the right-hand side zero <em>before</em> factoring was what {{stu}} neglected to do.
+        </p></outtro></knowl>
+    
+    <knowl>
+    <content>                <p>Write out a correct step-by-step solution that uses factoring.</p>
+
+        </content>
+    <outtro>
+        
+        <p><m>\text{Solve for }{{var}}\text{:}\qquad {{lhs1}} = {{rhs1}}</m></p>
+        <p><m>{{lhs2}} = 0</m></p>
+        <p><m>\bigl({{cfac1}}\bigr)\, \bigl({{cfac2}}\bigr)= 0</m></p>
+        <p><m>{{cfac1}}=0  \quad \text{or} \quad {{cfac2}}=0</m></p>
+        <p><m>{{var}}={{sol1}} \quad \text{or} \quad {{var}}={{sol2}}</m></p>
+            
+        
+        </outtro></knowl>
+    
+    <knowl>
+    <content>
+        <p>"I get it now," {{stu}} tells you. "But what if factoring doesn't work at the end? What other options do I have?"</p>
+                <p>"Here," you explain. "Let's change this problem just a little bit, and I'll show you." You erase the <m>{{rhs1}}</m> in the original problem and replace it with <m>{{rhs2}}</m> so that the new problem reads: </p>
+        <p><m>\quad \text{Solve for }{{var}}\text{:} \qquad {{lhs1}} = {{rhs2}}.</m></p>
+                <p>Write out and simplify a correct step-by-step solution of the new problem, explaining to {{stu}} why factoring is no longer helpful. Simplify radicals wherever possible.</p>
+        </content>
+    <outtro>
+         <p>With the new right-hand side <m>{{rhs2}}</m> the quadratic is no longer factorable because its discriminant is <m>{{disc}} = {{facs}}</m>, no longer a perfect square.</p>
+        <p>The new equation can be solved either by completing the square:</p>
+            
+        <p><m>{{lhs1}} = {{rhs2}}</m></p>
+        <p><m>{{lhs3}} = 0 </m></p>
+        <p><m>{{A}}\bigl( {{prefac3}} \qquad \bigr) \qquad {{sgn}} {{C}} = 0</m></p>
+        <p><m>{{A}}\bigl( {{prefac3}} + {{extra}} - {{extra}} \bigr) \qquad {{sgn}} {{C}} = 0</m></p>
+        <p><m>{{A}}\bigl( {{prefac3}} + {{extra}} \bigr) - {{extraa}} {{sgn}} {{C}} = 0</m></p>
+        <p><m>{{A}}\bigl( {{fac3}} )^2 {{sgna}} {{CC}} = 0</m></p>
+        <p><m>\left( {{fac3}} \right)^2 = {{CCn}}</m></p>
+                <p><m>{{var}} = {{AB}} \pm \sqrt{ {{CCn}} }</m>
+            
+        </p>
+        <p>Or using the quadratic formula:</p>
+        <p><m>\quad \displaystyle {{var}} = \frac{ {{MB}} \pm \sqrt{ {{disc}} } }{ 2\cdot {{A}} } = {{sol3}} \text{  or  } {{sol4}}.</m></p>
+        
+        </outtro>
+    
+    </knowl>
+   
+    
+</knowl>

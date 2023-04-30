@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <intro>
+        <p>You notice that the table of data shown below matches an exponential function,</p>
+        <p><m>\quad \begin{array}{r|rrrrr} x {{#data}} &amp; {{x}} {{/data}} \\ y {{#data}} &amp; {{y}} {{/data}} \end{array}</m></p>
+        <p>but in the form <m>x = {{fy}}</m>.</p>
+    </intro>
+    
+    <knowl>
+        <content>
+            <p>Use the information above to find a logarithmic function <m>y = f(x)</m> that matches this data.</p>
+        </content>
+        <outtro>
+            <p><m>f(x) = {{logf}}</m></p>
+        </outtro>
+    </knowl>
+    <knowl>
+        <content>
+            <p>Find the domain of the logarithmic function you found in Task 1. Express your answer in interval notation.</p>
+        </content>
+        <outtro><p>The domain of this function is <m>{{domain}}</m>.</p>
+        </outtro>
+    </knowl>
+
+</knowl>

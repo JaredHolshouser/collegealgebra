@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <intro>
+    <p>
+            In this problem you'll find the solution of the rational inequality <m>\displaystyle {{exprs}} {{ineq}} 0.</m>
+        </p>
+        <p>First, notice that the expression on the left-hand side factors completely as <m>\displaystyle {{expr}}</m>. (Aren't you glad you didn't have to do that step?)</p>
+    </intro>
+    
+    <knowl>
+    <content>
+        <p>
+            Create a complete sign chart showing where <em>each</em> of the four factors above is <em>positive</em>, <em>negative</em>, and <em>zero</em>.
+                </p>
+        </content>
+    </knowl>
+    
+    <knowl>
+    <content>
+        <p>Combine your answers to part (a) to form a sign chart showing where the whole expression <m>\displaystyle{{expr}}</m> is <em>positive</em>, <em>negative</em>, <em>zero</em>, and <em>undefined</em>. 
+        </p>
+        </content><outtro>
+        <p>A sign chart for the expression is:</p>
+        <p><m>\quad\displaystyle \begin{array}{c|ccccccccc} {{var}} &amp;&amp;  {{z0}} &amp;&amp;  {{z1}} &amp; &amp; {{z2}} &amp; &amp; {{z3}} &amp;  \\ \hline {{expr}} &amp; {{s0}} &amp; {{p0}} &amp; {{s1}} &amp; {{p1}} &amp; {{s2}} &amp; {{p2}} &amp; {{s3}} &amp; {{p3}} &amp; {{s4}}\end{array}</m>
+        </p>
+        </outtro></knowl>
+    
+    <knowl>
+    <content>
+        <p> Finally, use your sign chart from part (b) to solve the inequality <m>\displaystyle {{expr}} {{ineq}} 0</m>. Express your answer using interval notation,
+        </p>
+    </content>
+    <outtro>
+                <p>The solution interval for this inequality is <m>\boxed{\quad {{sol}}\quad }</m>.</p>
+</outtro></knowl>
+    
+    
+    
+</knowl>

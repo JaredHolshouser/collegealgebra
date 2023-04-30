@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <intro>
+        <p>
+            {{prompt}} </p>
+            
+            <p><m>\quad\displaystyle {{dv}} = {{f}}\bigl( \, {{iv}} \, \bigr) \quad \text{ where } \quad {{f}}\bigl({{iv}}\bigr) = {{expr}}</m>, and</p>
+            <p><m>\quad {{iv}}</m> denotes the {{ivd}}, measured in {{ivu}}, and </p>
+            <p><m>\quad {{dv}}</m> denotes the {{dvd}}, measured in {{dvu}}.</p>
+        
+        <p> Translate each of the following into a complete sentence that would describe its practical interpretation. (Note that their values might not make "real-life" sense!)
+        </p>
+    </intro>
+    
+    <knowl>
+    <content>
+        <p> The equation <m>{{dv0}} = {{f}}\bigl({{iv0}}\bigr).</m>
+            </p>
+        </content>
+    <outtro><p> When {{ivd}} is <m>{{iv0}}</m> {{ivu}}, then {{dvd}} is <m>{{dv0}}</m> {{dvu}}.
+                </p>
+        </outtro></knowl>
+
+    <knowl>
+    <content>
+        <p> The value of <m>{{f}}\bigl({{iv1}}\bigr ).</m> (Compute this value before you explain.)
+            </p>
+        </content>
+    <outtro><p> We have <m>{{f}}({{iv1}}) = {{dv1}}</m>.</p>
+                <p> When {{ivd}} is <m>{{iv1}}</m> {{ivu}}, then {{dvd}} is <m>{{dv1}}</m> {{dvu}}.
+                </p>
+        </outtro></knowl>
+
+    <knowl>
+    <content>
+        <p> The value of <m>{{iv}}</m> for which <m>{{dv2}} = {{f}}\bigl({{iv}}\bigr).</m> (You do <em>not</em> need to find this value, only explain what it would mean.)</p>
+        </content>
+    <outtro><p> This value of <m>{{iv}}</m> would represent the (unknown) {{ivd}} at which the {{dvd}} is <m>{{dv2}}</m> {{dvu}}.
+                </p>
+        </outtro></knowl>
+</knowl>

@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <intro>
+        <p>
+            "I think I'm finally getting inverse functions," {{stu}} tells you in the tutoring lab. "But I found this exercise in the textbook that got a little messy. It's an even-numbered problem so the answer isn't in the back of the book. Is it right?"
+        </p>
+        <p>
+            The problem reads: <em>Determine the inverse function, if it exists, for: <m>\displaystyle f(x) = {{f}}.</m></em>
+        </p>
+        <p> "I got this answer," {{stu}} says, pointing on {{pos}} paper where {{pn}} wrote: </p>
+        
+        <p><m>\quad\displaystyle \text{The inverse is } g(x) = {{fi}}.</m></p>
+        
+        <p>"But that doesn't look right... it looks too much like the original function. That can't be right, can it?" {{pn}} ask{{suf}}. 
+        </p>    
+    </intro>
+    
+    <knowl>
+    <content>
+        <p>Demonstrate how {{stu}} can <em>check</em> {{pos}} answer to determine whether this <m>g</m> is the inverse function to <m>f</m>, <em>without</em> simply solving the problem from the beginning.</p><p>Explain in writing the steps you're taking and how they tell you whether {{stu}}'s answer is correct or not. (There may be some tricky fraction algebra here... stick with it, be patient, and simplify as much as you can!)
+                </p>
+        </content>
+        <outtro>
+                <p>
+            {{stu}}'s original answer is {{cor}}.
+        </p>
+        <p> To see why, remember that if <m>f</m> and <m>g</m> are inverse functions we must have <m>f\bigl(g(x)\bigr) = x</m> and <m>g\bigl(f(x)\bigr) = x</m>.</p>
+        
+            <p>We can check that {{stu}}'s answer satisfies <m>f\bigl(g(x)\bigr) = \displaystyle {{fog}}</m> and <m>g\bigl(f(x)\bigr) = \displaystyle {{gof}}.</m>
+        </p></outtro>
+    </knowl>
+    
+    <knowl>
+        <content>
+        <p><em>If {{stu}}'s answer was incorrect:</em> Provide a step-by-step solution with explanations for {{pos}} original problem above.
+                </p>
+            <p><em>If {{stu}}'s answer was correct:</em> Provide a step-by-step solution with explanations to determine the inverse function, if it exists, for:</p>
+            <p><m>\qquad\displaystyle f(x) = {{ff}}.</m>
+                </p> 
+        </content>
+        <outtro>
+            <p>{{guidance}} inverse of <m>f(x) = {{ffexpr}}</m> is: </p>
+            <p><m>\quad\displaystyle \qquad f^{-1}(x) = {{ffi}}.</m>
+            </p>
+        </outtro>
+    </knowl>
+    
+    
+</knowl>

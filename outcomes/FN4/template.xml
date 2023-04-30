@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <intro>
+     <p>
+            The function <m>y = f(x)</m> shown below relates <m>x</m>, {{ivd}}, measured in {{ivu}}, and <m>y</m>, {{dvd}}, measured in {{dvu}}.
+        </p>
+        <p><m>\quad\displaystyle f(x) = {{expr}} </m>
+        </p></intro>
+    
+    <knowl>
+        <content>
+            <p>Calculate the <em>average rate of change</em> of <m>f(x)</m> on the interval from <m>x={{Px}}</m> to <m>x={{Qx}}</m>.</p>
+        </content>
+        <outtro>
+        <p>
+            The average rate of change is <m>\frac{ f({{Px}}) - f({{Qx}}) }{ {{Px}} - {{Qx}} } = \frac{ {{Py}} - {{Qy}} }{ {{Px}} - {{Qx}} } = {{aroc}}</m>.
+        </p>
+       
+        </outtro>
+    </knowl>
+    
+    <knowl>
+        <content>
+            <p>On a copy of the graph below, sketch an additional line that can help the reader understand what your answer to the previous question is saying about <m>f</m>. Explain how your line was chosen, and how it accurately reflects your previous answer.</p>
+            <p><image source="assets/FN4/generated/{{__seed__}}/graph.png" description="Graph of the function f"/></p>
+        </content>
+        <outtro>
+             <p>
+            This is the slope of a secant line drawn on the graph through the points <m>({{Px}},{{Py}})</m> and <m>({{Qx}}, {{Qy}}).</m>
+            </p>
+        <p><image source="assets/FN4/generated/{{__seed__}}/answer.png" description="Graph and secant line"/></p>
+            <p>This picture makes sense because the average rate of change we computed was {{sign}} and this secant line is {{direction}}.</p>
+        </outtro>
+    </knowl>
+    
+    <knowl>
+    <content>
+        <p>Finally, write a "when...then" sentence that explains the practical interpretation of your numerical answer to part (a). Be sure to include both the number and its units in your explanation.</p><p>For example: "When the population of Boston increases from 2 million residents to 3 million residents, then the level of the water table decreases at a rate of 1.6 feet per million people."</p></content>
+    <outtro>
+        <p>
+            When {{ivd}} increases from {{Px}} {{ivu}} to {{Qx}} {{ivu}}, then {{dvd}} {{dvdelta}} at a rate of {{aaroc}} {{dvu}} per {{ivu}}.
+        </p>
+        </outtro></knowl>
+</knowl>

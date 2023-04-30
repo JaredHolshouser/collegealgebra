@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <intro>
+    <p>
+               {{prompt}}
+            </p>
+            <p><m>\qquad \displaystyle {{dv}} = {{expr}}</m></p>
+        <p>where the {{dvm}}, measured in {{dvu}}, is denoted by <m>{{dv}}</m> and</p>
+                
+                    {{#ivs}}
+                    <p><m>\qquad {{iv}}</m> denotes the {{desc}}, measured in {{units}}</p>
+                    {{/ivs}}
+                
+        
+        <p>Excitedly, you gather some measurements and decide to try this formula out today.
+        </p>
+    
+    </intro>
+    
+    <knowl>
+    <content>
+        <p>Evaluate this formula for the values {{#ivs}}<m>{{iv}} = {{val}},\;</m>{{/ivs}} and simplify your answer completely. Avoid using decimals.</p>
+    </content>
+    <outtro>
+        <p>The expression evaluates to <m mode="display">{{dv}}={{exprval}}</m>.</p>
+    </outtro>
+    </knowl>
+    
+    <knowl>
+    <content>
+        <p>Write a "when...then" sentence that fully explains the practical meaning of your answer.</p><p>For example: "<em>When </em>the temperature outside is 36 degrees and the time is 9:00 p.m., <em>then</em> the wind speed would be 12 mph."</p><p>For the best clarity, avoid using either variable names (like "<m>{{dv}}</m>") or negative numbers in your sentence.</p>
+        </content>
+    
+    <outtro>
+        <p>This result may be practically interpreted to say: "When...</p>
+        
+        {{#ivs}}
+            <p><m>\qquad</m>{{desc}} is <m>{{val}}</m> {{units}},</p>
+        {{/ivs}}
+        
+        <p>, then the {{dvm}} will be <m>{{exprval}}</m> {{dvu}}.</p></outtro></knowl>
+</knowl>

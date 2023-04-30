@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <intro>
+    <p>Suppose <m>{{t}}</m> is a mysterious number about which we only know that <m>{{t}}^{ 1/{{b}} } = {{pow}}</m>.</p>
+        <p>(You should do this problem <em>without</em> first solving this for <m>{{t}}</m>.)</p>      
+    </intro>
+    
+    <knowl>
+    <content>
+        <p>Simplify this expression completely:</p>
+                    <p><m>\qquad\displaystyle \frac{ {{p}} {{t}}^{ {{a}} } \sqrt[ {{b}} ]{ {{t}}^{ {{c}} } } }{ \bigl( {{q}} {{t}}^{ {{d}} } \bigr)^{ {{e}} } } = </m>
+                </p>
+    </content>
+    <outtro>
+        <p>The expression evaluates to <m>{{coeff}}\, {{t}}^{ {{expans}} }</m>.</p>
+    </outtro>
+    </knowl>
+    
+    <knowl>
+    <content>
+        <p>Use what we know about <m>{{t}}</m> to find the numerical value of your answer to the previous question.</p>
+        </content>
+        <outtro><p>Its numerical value is <m>\displaystyle{{coeff}}\, \bigl({{t}}^{ 1/ {{b}} }\bigr)^{ {{bpow}} } = {{coeff}}\, \cdot {{pow}}^{ {{bpow}} } = {{expr}}.</m></p>
+        </outtro></knowl>
+    
+    <knowl>
+    <content>
+        <p>Now suppose <m>{{u}}</m> is another mysterious number about which we only know that <m>{{u}}</m> <em>is negative</em>.</p>
+                <p>Exactly one of the following expressions is positive; one is negative; and the third is not a real number at all.</p>
+        <p><m>\qquad\displaystyle {{u}}^{ {{n1}} / {{d1}} } \qquad {{u}}^{ {{n2}} / {{d2}} } \qquad {{u}}^{ {{n3}} / {{d3}} }</m></p>
+                <p>Determine which one is which, and write 2-3 sentences explaining your reasoning.</p>
+        </content>
+    <outtro>
+        <p>When <m>{{u}}</m> is a negative real number, we know that...</p>
+        <p><m>\qquad {{u}}^{ {{whichpos}} }</m> is <em>positive</em> since it is an even power of <m>{{u}}</m>'s odd root;</p>
+        <p><m>\qquad {{u}}^{ {{whichneg}} }</m> is <em>negative</em> since it is an odd power of <m>{{u}}</m>'s odd root;</p>
+        <p><m>\qquad {{u}}^{ {{whichund}} }</m> is <em>undefined</em> (not real) since it is an even root of a negative number.</p>
+        </outtro>
+    
+    </knowl>
+</knowl>

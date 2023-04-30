@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <intro>
+    <p>
+           Shown below is the graph of a rational function <m>y=f(x)</m> which has:
+        </p>
+        {{#features}}
+            <p><m>\quad</m>{{feature}} at <m>x={{x}}</m>.</p>
+        {{/features}}
+    <p>
+        <image source="assets/PR4/generated/{{__seed__}}/graph1.png" description="Graph of rational function with listed features"/></p>
+    </intro>
+    
+    <knowl>
+    <content>
+        <p>
+                Determine, in factored form, a formula for a rational function whose graph has the features shown. </p>
+            <p> Explain, in one sentence each, the reason for the factors that appear in your formula.
+            </p>
+        </content>
+    <outtro><p>
+            A factored form for the original graph might be: <me>\displaystyle f(x) = {{A}}\frac{ {{num}} }{ {{den}} } .</me>
+        </p>
+        </outtro></knowl>
+    
+    <knowl>
+    <content><p>
+                Squinting, you discover that you missed a feature of the graph: a "hole" in the graph at the point <m>({{hx}},{{hy}})</m>.
+            </p>
+        <p>
+        <image source="assets/PR4/generated/{{__seed__}}/graph2.png" description="Graph of rational function with listed features"/></p>
+        <p>
+                Modify your answer to Task #1 to determine a formula for this new "punctured" graph, in factored form.
+                </p>
+        
+        </content>
+    <outtro><p>
+            When the "hole" at <m>({{hx}},{{hy}})</m> is included, <me>\displaystyle f(x) = {{A}}\frac{ {{numh}} }{ {{denh}} } .</me>
+        </p>
+        </outtro></knowl>
+    
+    <knowl>
+    <content><p>Multiply and simplify your answers to Tasks #1 and #2. Explain briefly why the factored form of a rational expression gives more helpful information about it than this standard form does.</p>
+        
+    </content>
+    <outtro><p>
+        The function in Task 1 simplifies to <me>\displaystyle f(x) = \frac{ {{nums}} }{ {{dens}} }.</me>
+        </p><p>
+        The function in Task 2 simplifies to <me>\displaystyle f(x) = \frac{ {{numhs}} }{ {{denhs}} }.</me>
+        </p>
+        </outtro></knowl>
+</knowl>

@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <intro>
+    <p>
+            Use its formula to determine the following information about the function <m>\displaystyle {{f}}\bigl(x\bigr) = {{expr}}.</m> Show and explain all your work.
+        </p>
+    </intro>
+    
+    <knowl>
+    <content><p>The (maximal) <em>domain</em> of <m>{{f}}</m>, expressing your answer in interval notation.</p>
+        </content>
+    <outtro><p>
+            The maximal domain for this function is <m>\boxed{ {{dom}} }</m>. 
+        </p>
+        </outtro></knowl>
+
+        <knowl>
+    <content><p>The <em>x-intercept(s)</em> of <m>{{f}}</m>, or explain why none exist.</p>
+        </content>
+    <outtro><p> It has {{xn}} x-intercepts <m>{{#xint}}({{x}},0)\qquad{{/xint}}</m>.
+        </p>
+        </outtro></knowl>
+    
+        <knowl>
+    <content><p>The <em>y-intercept</em> of <m>{{f}}</m>, or explain why none exists.</p>
+        </content>
+    <outtro> <p> It has {{yn}} y-intercept <m>{{#yint}}(0,{{y}})\qquad{{/yint}}{{yround}}</m>.
+        </p>
+        </outtro></knowl>    
+</knowl>

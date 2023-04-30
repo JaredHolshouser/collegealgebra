@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <intro>
+     <p>
+         The solution of the absolute-value inequality</p>
+         <p><m>\quad \displaystyle{{a}} \bigl| {{var}} {{sgn}} {{b}} \bigr| \, {{ineq}} \, {{c}}</m></p>
+          <p>can be expressed in interval notation as <m>{{origsol}}</m>.
+        </p>
+    </intro>
+    
+    <content>
+        <p>
+            By changing <em>exactly one</em> of either the <m>{{a}}</m>, <m>{{b}}</m>, <m>{{c}}</m>, or the inequality sign <m>{{ineq}}</m> in this problem, find a new inequality whose solution set is <m>{{newsol}}</m>.
+        </p>
+        <p> Provide a step-by-step solution of your new inequality, and accompany your answer with a sketch of the solution set as a shaded portion of the real number line.
+        </p>
+    </content>
+    <outtro>
+        <p>There are many possible solutions to this problem!</p>
+        <p>
+            One solution would be the inequality</p>
+        <p><m>\quad\displaystyle{{an}} \bigl| {{var}} {{sgnn}} {{bn}} \bigr| \, {{ineqn}}\, {{cn}}.</m></p>
+        <p>Its number line is shown below. You may wish to check to see if there are other solutions!</p>
+        <p><image source="assets/EQ2/generated/{{__seed__}}/numline.png" description="Number line shaded to represent the solution set"/></p>
+    </outtro>
+</knowl>

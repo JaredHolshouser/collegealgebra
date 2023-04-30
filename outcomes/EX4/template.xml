@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <intro>
+        <p>You're working for a (somewhat dodgy) investment firm that's working on a new advertising campaign.</p>
+        <p>The firm's most successful, day-trading client has seen their money grow according to the data table below.</p>
+        <p><m>\quad \begin{array}{r|rrrrr} \text{years invested, }t {{#data}} &amp; {{x}} {{/data}} \\ \text{account balance in \$thousands, }f(t) {{#data}} &amp; {{y}} {{/data}} \end{array} </m></p>
+        <p>Finding a formula for this data to be <m>f(t) = {{f}}</m>, you write an ad campaign saying your clients can "<em>{{multiple}} your money every {{time1}} years!</em>"</p>
+    </intro>
+    
+    <knowl>
+    <content>
+        <p>"This is nonsense!" cries your boss, the head of the marketing division. "How do I know this person's money '{{multiple}}d every {{time1}} years'?"</p>
+        <p>Demonstrate for your boss how the formula <m>f(t) = {{f}}</m> and/or the data in the table led you to this conclusion.</p>
+        </content>
+    <outtro>
+        <p>Since the investment grows exponentially, one way to find this estimate is to measure the length of time it took to grow from its initial value <m>f(0) = {{A}}</m> to a value {{t1}} times as large, <m>f(t) = {{mA}}</m>.</p>
+        <p>Solving <m>{{f}} = {{mA}}</m> for <m>t</m> gives the solution <m>t = \displaystyle\frac{\ln {{t1}} }{ {{lnb}} } \approx {{time1}}.</m></p>
+        </outtro>
+    </knowl>
+
+    <knowl>
+    <content>
+        <p>"Still," your boss says, "your slogan's no good. Our clients don't care how quickly they can '{{multiple}}' their money." The boss points to the large company logo over their head, reading:
+        </p>
+        <p><em>Lucky-{{multiple2}} Investments, LLC</em></p>
+        <p>"Our customers want to know how quickly their money grows by a factor of {{multiple2}}, not {{b1}}! Our entire brand depends on it!"</p>
+        <p>You sigh, and head back to the drawing board to come up with a new slogan.</p>
+        <p>Pulling out a calculator, you decide to compute the values of <m>\log_{ {{t1}} } {{t2}}</m> and <m>\log_{ {{t2}} } {{t1}}</m>.</p>
+        <p>Calculate both numbers, rounded to 3 decimal places. What do these numbers tell you about how you should adjust your "<em>{{multiple}} your money every {{time1}} years!</em>" slogan to read "<em>Grow your money by a factor of {{multiple2}} every ___ years!</em>" instead?</p>
+        </content>
+    <outtro>
+        <p><m>\log_{ {{t1}} } {{t2}} \approx {{log12}}</m> and <m>\log_{ {{t2}} } {{t1}} \approx {{log21}}</m>.</p>
+        <p>If it takes {{time1}} years for an exponentially-growing quantity to grow by a factor of {{t1}}, then it will take {{log12}} times as long, or <m>{{log12}} \cdot {{time1}} = {{time2}}</m> years for it to grow by a factor of {{t2}}.</p>
+        <p>So an adjusted slogan would be  "<em>Grow your money by a factor of {{multiple2}} every {{time2}} years!</em>"</p>
+        </outtro>
+    </knowl>
+
+    <knowl>
+    <content>
+        <p>Your original slogan could also have been captured in the equation <m>\displaystyle f(t) = {{t1}}^{ t / {{time1}} }.</m></p>
+        <p>Use either the fact that <m>{{t1}} = {{t2}}^{\log_{ {{t2}} } {{t1}} }</m> or <m>{{t2}} = {{t1}}^{\log_{ {{t1}} } {{t2}} }</m> to write a new formula for <m>f(t)</m> using the base <m>{{t2}}</m> instead.</p>
+        </content>
+    <outtro>
+        <p>We could write <m>\displaystyle f(t) = {{t1}}^{ t / {{time1}} } = \bigl( {{t2}}^{ {{log21}} } \bigr)^{ t / {{time1}} } = {{t2}}^{ ({{log21}}) t / {{time1}} }= {{t2}}^{ {{time12}} t } = {{t2}}^{ t / {{time2}} }.</m></p>
+        <p>(Note that this is the same work in algebra that was done without algebra in Task 2.)</p>
+        </outtro>
+    </knowl>
+    
+</knowl>

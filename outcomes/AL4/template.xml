@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    
+    <intro>
+     <p>
+            Back in the tutoring lab, you're helping a student {{stu}} with a homework exercise on polynomials. Yet again, {{pn}} didn't write down the steps {{pn}} used to arrive at the following two incorrect answers:
+        </p>
+        
+            <p><em>(a)</em><m>\qquad</m>Simplify: <m>x^2\bigl( {{a}}x {{s1}} {{b}} \bigr) - {{c}}\bigl( x {{s2}} {{d}}\bigr)^2 = \boxed{ {{wexpr}} }</m> <em>(Incorrect)</em></p>
+        
+            <p><em>(b)</em><m>\qquad</m>Factor: <m>{{expr2}} = \boxed{ {{wexpr2}} }</m> <em>(Incorrect)</em>
+            </p>
+        <p>Help {{stu}} both to understand how a single error led to {{ppn}} incorrect answer in each case.</p>
+    </intro>
+    
+    <knowl>
+    <content>
+        <p>In part (a), first do the simplification correctly yourself, showing all your steps.</p>
+       <p>Then, looking at your correct work, identify one common algebra error that {{stu}} might have made that would have led to the incorrect answer <m>{{wexpr}}.</m>
+        </p>
+        <p>Explain to {{stu}} how to avoid this error in the future.
+            </p>
+        </content>
+        <outtro>
+        <p>
+            The correct simplification for part (a) is <m>{{ans1}}</m>.
+        </p>
+        <p>
+            Probably {{stu}} arrived at the incorrect answer <m>{{wexpr}}</m> by {{reason1}}.
+        </p>
+        </outtro>
+    </knowl>
+    
+    <knowl>
+    <content>
+        <p>In part (b), first demonstrate for {{stu}} how to <em>check</em> {{ppn}} factoring work so {{pn}} can see why <m>{{wexpr2}}</m> is incorrect.</p>
+        <p>Then, knowing that <m>(x - {{p}})</m> is one correct factor, determine a correct factorization for this polynomial, explaining your work.</p>
+        
+        </content>
+    <outtro>
+        <p>
+            Multiplying out {{stu}}'s answer to part (b) should arrive at <m>{{wexpand}}</m>, not <m>{{expr2}}</m>.
+        </p>
+        <p>
+            A correct factorization would be <m>{{fans}}</m>, found, e.g., by grouping the factor <m>(x-{{p}})</m>.
+        </p>
+        </outtro></knowl>
+    
+    
+    
+    
+    
+</knowl>

@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    
+    <intro>
+        <p>Consider the three graphs (a), (b), and (c) shown below.</p>
+        <p><image source="assets/EX2/generated/{{__seed__}}/graphs.png" description="Three possible graphs"/></p>
+    </intro>
+    
+    <knowl>
+    <content><p>Explain in 1-2 sentences how you can tell which of the graphs above is the graph of the function <m>f(x) = {{f}}</m>. Describe how the features of the correct graph match the features of this function's formula.</p>
+        </content>
+    <outtro><p>The function <m>f(x) = {{f}}</m> matches graph {{ans}}.</p>
+        </outtro>
+    </knowl>
+    
+    <knowl>
+    <content><p>By changing just one of the numbers <m>{{A}}, {{b}}, </m> or <m>{{k}}</m>, show how to turn your graph from Task 1 into one of the other graphs shown above. Explain in 1-2 sentences how and whether your choice represents a kind of exponential growth, or exponential decay, and why.</p>
+        </content>
+    <outtro><p>The three functions graphed are</p>
+        <p><m>\quad f(x) = {{f1}}</m></p>
+        <p><m>\quad f(x) = {{f2}}\quad </m> and</p>
+        <p><m>\quad f(x) = {{f3}}</m>.</p>
+        <p>See if you can match which is which!</p>
+        </outtro>
+    </knowl>
+
+</knowl>

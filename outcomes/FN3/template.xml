@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <intro>
+        <p>Consider the function given by the formula</p>
+        <p><m>\quad\displaystyle {{f}}({{iv}}) = {{expr}}.</m></p>
+    </intro>
+    
+    <knowl>
+        <content>
+            <p>
+                Complete the data table below that gives five data points for the function.</p>
+            <p><m>\quad \begin{array}{r|rrrrr} {{iv}} {{#points}}&amp; {{x}} {{/points}} \\ {{f}}({{iv}}) {{#points}}&amp; {{y}} {{/points}} \end{array}</m></p>
+        </content>
+        <outtro>
+            <p>The completed data table is shown below.</p>
+            <p><m>\quad \begin{array}{r|rrrrr} {{iv}} {{#pointss}}&amp; {{x}} {{/pointss}} \\ {{f}}({{iv}}) {{#pointss}}&amp; {{y}} {{/pointss}} \end{array}</m></p>
+        </outtro>
+    </knowl>
+    
+    <knowl>
+        <content>
+            <p>Create a large graph grid and clearly label the scale of its axes appropriately for your data. Then, plot these five points and sketch a line or curve through them that could represent the graph of this function.
+        </p>
+        </content>
+        <outtro>
+            <p><image source="assets/FN3/generated/{{__seed__}}/graph.png" description="Data points and possible graph of this function"/></p>
+        </outtro>
+    </knowl>
+    
+</knowl>

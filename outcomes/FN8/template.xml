@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <intro>
+    <p>
+        Use the four functions defined below to complete this problem. </p>
+        
+        <p><m>\quad\displaystyle {{#functions}}{{f}}(x) = {{expr}}\qquad {{/functions}}</m></p>
+        
+    </intro>
+    
+    <knowl>
+    <content><p> Evaluate and simplify the expression: <m>{{#c1}}{{f}}(\,{{/c1}} {{x1}} \,)\,) = </m>
+            </p>
+        </content>
+    <outtro><p>We have <m>\displaystyle {{#c1}}{{f}}(\,{{/c1}} {{x1}} \,)\,) = {{outer}}(\, {{ans0}}\, ) = {{ans1}}.</m></p>
+        </outtro>
+    </knowl>
+    
+    <knowl>
+        <content><p> Match each composition with its simplified formula, then show your work. </p>
+        
+            <p><m>\quad\displaystyle \begin{array}{ccc}{{#ca2}}{{f}}({{/ca2}} x )) &amp; {{#cb2}}{{f}}({{/cb2}} x )) &amp; {{#cc2}}{{f}}({{/cc2}} x ))\\ &amp;&amp;&amp; \\ {{#expr2}}\displaystyle {{expr}}&amp;{{/expr2}}\end{array}</m></p>
+                
+        </content>
+    <outtro>{{#partb}}
+                        <p><m>\quad {{funcs}}</m> is <m>{{expr}}.</m></p>
+                        {{/partb}}
+        </outtro></knowl>
+    
+    <knowl>
+    <content>
+        <p> What composition of two or more of the functions <m>{{#functions}}{{f}},{{/functions}}</m> produces the following function? Give a step-by-step composition that demonstrates that your answer is correct.</p> <p><m>\qquad\displaystyle f({{var}}) = {{exprvar}}</m></p>
+            
+        </content>
+    <outtro>
+        <p> <m>\quad\displaystyle {{#partc}}{{f}}({{/partc}} {{var}} ))) = {{exprvar}}.</m>
+                    </p>
+        <p>(If your answer doesn't quite match, you may need to simplify it further.)</p>
+        </outtro></knowl>
+           
+</knowl>

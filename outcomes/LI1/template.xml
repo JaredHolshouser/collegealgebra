@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <intro>
+    <p>
+            Still on a quest to determine a mathematical relationship between these two quantities, you collect a set of data points as follows.</p>
+            <p><me>\begin{array}{r|rrrrr}\text{ {{xuni}} } {{x}}:\qquad {{#xdata}}&amp; \quad {{x}}{{/xdata}}\\
+                \text{ {{yuni}} } {{y}}:\qquad {{#ydata}}&amp; \quad {{y}}{{/ydata}}\end{array}</me></p>
+            
+        
+            <p>where <m>{{x}}</m> denotes the {{xinterp}}, measured in {{xuni}}; and <m>{{y}}</m> denotes the {{yinterp}}, measured in {{yuni}}.</p>
+    </intro>
+    
+    <knowl>
+    <content>
+        <p><em>Four</em> of these five data points exactly fit a <em>linear</em> model <m>y = f(x)</m>.</p><p>By computing slopes, determine which of the five points is not a perfect fit, and explain your answer.</p>
+        </content>
+    <outtro>
+        <p>
+            The point <m>({{px}},{{py}})</m> is out of place with the linear model.
+        </p>
+        </outtro></knowl>
+    
+    
+    <knowl>
+    <content><p>Remove the point you found in part (a). Then, find a slope-intercept equation for the linear model <m>y = mx + b</m> that passes through the remaining four data points.</p>
+        </content>
+    <outtro> <p>
+            With that point removed, the remaining points fit the linear model <m>y = f(x) = {{rhs}}.</m>
+        </p>
+        </outtro></knowl>
+    
+    <knowl>
+    <content><p>In one "when-then" sentence, explain the practical meaning of the <m>y</m>-<em>intercept</em> of your linear model.</p><p>(How should we understand the meaning of that number, in terms of {{xinterp}} and/or {{yinterp}}? Include units in your explanation as appropriate.)</p>
+        </content>
+    <outtro><p>
+            The <m>y</m>-intercept is <m>\boxed{ {{b}} }</m>. This means that when {{xinterp}} is <em>zero</em> {{xuni}}, then the {{yinterp}} will be <m>{{b}}</m> {{yuni}}.
+        </p>
+        </outtro></knowl>
+    <knowl>
+    <content><p>In one sentence, explain the practical meaning of the <em>slope</em> of your linear model.</p><p>(How should we understand the meaning of that number, in terms of {{xinterp}} and/or {{yinterp}}? Include units in your explanation as appropriate.)</p>
+        </content>
+    <outtro><p>
+            The slope is <m>\boxed{ {{m}} }</m>. This means that every change of <m>{{mden}}</m> {{xuni}} in the {{xinterp}} is associated with a change of <m>{{mnum}}</m> {{yuni}} in the {{yinterp}}.
+        </p>
+        </outtro></knowl>
+
+</knowl>

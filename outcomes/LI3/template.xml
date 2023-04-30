@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <intro>
+    <p>
+            Consider the system of linear equations <m>\begin{array}{rcl}{{lhs1}} &amp;=&amp; {{rhs1}}\\{{lhs2}} &amp;= &amp;{{rhs2}}\end{array}</m>.
+        </p>
+    </intro>
+    
+    <knowl>
+        <content>
+    <p>Before you look for its solution, determine which of the six graphs (1)-(6) in the image below best describes the nature of this system of two equations. Explain your choice in 2-3 sentences. (Hint: Think first about the slope of each equation.)
+            </p>
+        <p><image source="assets/LI3/combine_images.jpg" description="Six types of linear system graphs"/></p>
+        </content>
+        <outtro>
+        <p>
+            Its graph best resembles {{graphtype}}.
+        </p>
+        </outtro>
+    </knowl>
+    
+    <knowl>
+    <content><p>Use either a substitution or an elimination method, showing and explaining each of your steps, to determine the solution of this system, if it has one.</p><p>If it has no solution, or infinitely many solutions, clearly demonstrate how you can tell.
+            </p>
+        </content>
+        <outtro>
+        <p>
+            This system has {{kind}}<m>{{sol}}</m>.
+        </p>
+        </outtro>
+    </knowl>
+</knowl>

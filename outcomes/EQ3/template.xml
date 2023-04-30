@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <intro>
+     <p>
+            Determine an equation for each of the lines described, expressing your answer in the form requested.
+        </p>
+        <p>
+            Use fractions (improper if necessary) and not decimals in your answers. Your standard-form equation should be written with integer (whole number) coefficients only.
+        </p>
+    </intro>
+    
+    <knowl>
+    <content>
+        <p>The line passing through <m>({{x0}},{{y0}})</m> that has a slope of <m>{{m0}}</m>.
+            </p>
+            <p>Express this line using {{form0}}, <m>{{eql0}} = {{eqr0}}</m> {{guid0}}.</p>
+        </content>
+    <outtro>
+        <p><m>\quad\displaystyle {{lhs0}} = {{rhs0}}</m>
+                </p></outtro>
+    </knowl>
+    
+    <knowl>
+    <content>
+        <p>The line passing through <m>({{x1}},{{y1}})</m> and <m>({{x2}},{{y2}})</m>.
+            </p>
+            <p>Express this line using {{form1}}, <m>{{eql1}} = {{eqr1}}</m> {{guid1}}.</p>
+        </content>
+    <outtro><p><m>\quad\displaystyle {{lhs1}} = {{rhs1}}</m>
+                </p>
+                <p>{{alt}}</p>
+        </outtro></knowl>
+    
+    <knowl>
+    <content><p>The line with slope <m>{{m2}}</m> and horizontal intercept <m>({{x3}},0)</m>.
+            </p>
+            <p>Express this line using {{form2}}, <m>{{eql2}} = {{eqr2}}</m> {{guid2}}.</p>
+        </content><outtro>
+        <p>
+        <m>\quad\displaystyle {{lhs2}} = {{rhs2}}</m>
+                </p>
+        </outtro></knowl>
+
+</knowl>

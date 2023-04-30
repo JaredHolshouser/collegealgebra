@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    
+    <intro>
+    <p>
+            Your roommate {{stu}} is working on an online homework set for intermediate algebra. "I don't understand," {{stu}} says. "I solved this inequality correctly, but the computer isn't taking my answer. Can you help?"
+        </p>
+        <p>The problem reads: Solve the inequality. Express your answer <em>(a)</em> as an inequality solved for <m>{{var}}</m>, <em>(b)</em> using interval notation, and <em>(c)</em> by shading a portion of a number line.</p>
+        <p><m>\qquad\displaystyle {{a}} - {{b}} \bigl( {{var}} {{ssgn}} {{c}} \bigr) {{sign}} {{rhs}} </m></p>
+        <p>{{stu}}'s answers to parts (a) and (b) are: <m>\boxed{\; {{var}} {{asign}} {{boundary}} \;}</m> and <m>\boxed{\; {{aint}} \; }</m>. "It says 'incorrect', but it doesn't say which part is incorrect," {{stu}} tells you.</p>
+    </intro>
+    
+    <knowl>
+        <content>
+            <p>Which part of {{stu}}'s solution is incorrect: the inequality, the interval, or both? Demonstrate how you know.
+            </p>
+        </content>
+    <outtro>
+        <p>
+            The correct solutions here are <m>\boxed{ {{var}} {{oppsign}} {{boundary}} }</m> and <m>\boxed{ {{corrint}} }</m>.</p>
+        <p> {{stu}}'s inequality was {{icor}}.
+        </p>
+        <p> {{stu}}'s interval was {{intcor}}</p>
+        </outtro></knowl>
+    
+    <knowl>
+    <content>
+        <p>Write out a step-by-step correct solution for parts (a) and (b), pointing out to {{stu}} the error {{pn}} likely made along the way. 
+            </p>
+        <p>Show {{stu}} how to carefully shade a portion of the real number line to communicate this correct solution. In your explanation, address both <em>whether</em> and <em>why</em> you have used either an open circle or a closed cirle at the boundary of your answer.
+            </p>
+        </content>
+    <outtro>
+        <p>A correctly shaded number line would be shaded to the {{dir}} of <m>{{boundary}}</m> and use {{circle}}.
+        </p>
+        <p><image source="assets/EQ1/generated/{{__seed__}}/numline.png" description="A number line with {{circle}} at {{boundary}} and shaded to the {{dir}}." /></p>
+        
+        </outtro></knowl>
+           
+    
+   
+    
+</knowl>

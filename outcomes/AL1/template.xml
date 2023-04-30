@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+        <intro><p>
+            While tutoring for a local high-school enrichment program, you're working with a student, {{stu}}, on the following problem:
+        </p>
+        <p><m>\text{Simplify the expression:}\quad {{st}} = </m></p>
+        <p>
+            {{stu}} has gotten the answer <m>{{incor}}</m>, which is incorrect. But {{pn}} didn't show their work.
+        </p>
+        </intro>
+        
+        <knowl>
+            <content>
+          
+                    <p>Write down a correct step-by-step process that correctly simplifies this expression.
+                    </p>
+            </content>
+            <outtro><p>
+            The correct solution in this problem is <m>{{cor}}</m>.
+            </p>    </outtro>
+        </knowl>
+        <knowl>
+            <content>
+                    <p>{{stu}} made a single algebra error on this problem that led to the incorrect answer <m>{{incor}}</m>. Looking at your own solution, find one step where a common algebra error would have resulted in the answer {{stu}} found. 
+                    </p>
+            </content>
+            <outtro>
+            <p>
+            The incorrect answer <m>{{incor}}</m> probably resulted from {{stu}} {{erred}}, computing instead the expression <me>{{wrongstep}} = {{incor}}.</me>
+            </p>
+            </outtro>
+        </knowl>
+        <knowl>
+            <content>
+            <p>Write out that step-by-step <em>incorrect</em> solution that leads to the answer <m>{{incor}}</m>, highlighting the error. Explain to {{stu}} how to avoid such errors in the future.</p>
+            </content>
+        </knowl>
+
+</knowl>

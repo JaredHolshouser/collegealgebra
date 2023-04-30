@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <intro>
+        <p>Suppose we know that <m>\quad {{preql}} = {{preqr}}.\quad </m></p>
+        <p>Rewrite this {{pr}} relationship in two equivalent ways:</p></intro>
+    
+    <knowl>
+    <content>
+        <p>As a {{qr1}} relationship, that is, <m> {{form1}} </m>,</p>
+        <p>and then as a {{qr2}} relationship, that is, <m> {{form2}} </m>.</p></content>
+        <outtro>
+        <p>
+            The full set of relationships for this base, exponent, and power are:</p>
+            <p><m>\qquad {{a1}}</m></p>
+            <p><m>\qquad {{a2}}</m></p>
+            <p><m>\qquad {{a3}}</m></p>
+        </outtro>
+    </knowl>
+    
+    <knowl>
+    <content>
+        <p> Use this same strategy to explain how to discover the value of <m>\log_{{bb}} {{p}}</m> without using a calculator.</p>
+        </content>
+    <outtro>
+                <p>The value of <m>\log_{{bb}} {{p}}</m> is <m>{{a4}}</m>.</p>
+
+        </outtro></knowl>
+    
+    <knowl>
+    <content>
+        <p>Express the relationship between the numbers <m>{{xd}}, {{yd}}, \text{ and } {{zd}}</m> in each of exponential, radical, and logarithmic forms.</p>
+        </content>
+    <outtro>
+        <p>The three relationships desired are:</p>
+            <p><m>\qquad {{y}}^{ {{z}} } = {{x}} \qquad \sqrt[ {{z}} ]{ {{x}} } = {{y}} \qquad \log_{ {{y}} } {{x}} = {{z}}.</m></p>
+        </outtro></knowl>
+
+</knowl>

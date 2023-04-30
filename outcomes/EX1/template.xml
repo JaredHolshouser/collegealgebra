@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <intro>
+        <p>It's finals week in the tutoring center, and {{stu}} brings you an exam packet and a question.</p>
+        <p>"This question wants me to 'fill in the missing value'," {{pn}} say{{suf}}. "And I did that! But my roommate told me it's wrong."</p>
+        <p>{{stu}} has only brought {{ppn}} notebook so you can't see the original question, only the table of data {{pn}} wrote down:</p>
+        <p><m>\quad \begin{array}{r|rrrrr} x {{#data}} &amp; {{x}} {{/data}} \\ f(x) {{#data}} &amp; {{y}} {{/data}} \end{array} </m></p>
+    </intro>
+    
+    <knowl>
+    <content>
+        <p>"Aha!" you say. "I think I found the missing value you filled in: the one that doesn't fit the pattern."</p>
+        <p>Which one of the five values of <m>f(x)</m> does not match the pattern of the other four?</p>
+        <p>Explain in 2-3 sentences why it doesn't match. What do you think {{stu}}'s reasoning was, and what similar problem did {{stu}} <em>correctly</em> solve with this missing value?</p>
+        </content>
+    <outtro><p>The data point <m>( {{wrongx}} , {{wrongy}} )</m> does not math the pattern of the others. {{stu}}'s value would have been correct if the other four data points followed a <em>linear</em> relationship. (Convince yourself that they do not!)</p>
+        </outtro>
+    </knowl>
+    
+    <knowl>
+    <content><p>"I still don't believe you," {{stu}} says. "My roommate is {{major}} major, {{pn}} didn't even have to take college algebra."</p>
+        <p>"Fine," you say. "Don't believe me: believe the data. Look what happens every time <m>x</m> increases by 1."</p>
+        <p>What happens in this data every time <m>x</m> increases by 1, that would convince {{stu}} of the pattern in the (correct) four data points? Explain.</p>
+        </content>
+    <outtro>
+        <p>Each time that <m>x</m> increases by 1 in the correct data points, the value of <m>f(x)</m> {{changes}} by a factor of (is multiplied by) <m>{{b}}</m>.</p>
+        </outtro>
+    </knowl>
+    
+    <knowl>
+    <content><p>"Wait, so this is an exponential function?" {{stu}} says skeptically. "Does that mean it's some kind of <m>e</m>-to-the-<m>x</m> formula?"</p>
+        <p>"Yes and no," you say equivocally. "Since we know what happens every time <m>x</m> increases by 1, we can find a simpler formula that matches this data without using the number <m>e</m>."</p>
+        <p>Determine a formula for <m>f(x)</m> that fits this data using its base and intercept. Then, use the formula to show {{stu}} what the correct value of the <q>missing</q> <m>f(x)</m> should have been.</p>
+        </content>
+    <outtro>
+        <p>A formula for this function is <m>f(x) = {{f}}</m>. Using this formula, we should have <m>f(\, {{wrongx}}\, ) = {{righty}}</m>.</p>
+        </outtro>
+    </knowl>
+    
+</knowl>

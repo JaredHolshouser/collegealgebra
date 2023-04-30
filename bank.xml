@@ -1,0 +1,268 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<bank xmlns="https://checkit.clontz.org" version="0.2">
+    <title>College Algebra</title>
+    <slug>college-algebra-salomone</slug>
+    <url>http://matthematician.github.io/college-algebra</url>
+    <outcomes>
+        <outcome>
+            <title>Simplify Arithmetic Expressions</title>
+            <slug>AL1</slug>
+            <path>outcomes/AL1</path>
+            <description>
+I can evaluate and simplify arithmetic expressions without the use of a calculator, using order of operations and properties of the real numbers. [1.1]
+            </description>
+        </outcome>
+        <outcome>
+            <title>Evaluate Formulas</title>
+            <slug>AL2</slug>
+            <path>outcomes/AL2</path>
+            <description>
+I can evaluate a formula for a given input value, and use formulas to solve real-world problems. [1.1]
+            </description>
+        </outcome>
+        <outcome>
+            <title>Exponent and Root Properties</title>
+            <slug>AL3</slug>
+            <path>outcomes/AL3</path>
+            <description>
+I can use exponent laws to simplify expressions involving exponents, and to convert between radicals and rational exponents. [1.2]
+            </description>
+        </outcome>
+        <outcome>
+            <title>Polynomial Algebra and Factoring</title>
+            <slug>AL4</slug>
+            <path>outcomes/AL4</path>
+            <description>
+I can identify, characterize, and add/subtract/multiply polynomial expressions, simplify the result, and factor polynomials using a variety of techniques. [1.4]
+            </description>
+        </outcome>
+        <outcome>
+            <title>Exponential, Log, and Radical Expressions</title>
+            <slug>AL5</slug>
+            <path>outcomes/AL5</path>
+            <description>
+I can convert between logarithmic, exponential, and radical expressions. I can evaluate simple exponential and logarithmic expressions without using a calculator. [1.3]
+            </description>
+        </outcome>
+        <outcome>
+            <title>Linear Equations and Inequalities</title>
+            <slug>EQ1</slug>
+            <path>outcomes/EQ1</path>
+           <description>
+I can solve linear equations and inequalities in one variable, and express these answers graphically and using interval notation. [2.2, 2.7]            </description>
+        </outcome>
+        <outcome>
+            <title>Absolute Value Equations and Inequalities</title>
+            <slug>EQ2</slug>
+            <path>outcomes/EQ2</path>
+            <description>
+I can solve linear equations and inequalities involving absolute values, and express these answers graphically and using interval notation. [2.7, 3.6]
+            </description>
+        </outcome>
+        <outcome>
+            <title>Forms of Linear Equations</title>
+            <slug>EQ3</slug>
+            <path>outcomes/EQ3</path>
+            <description>
+I can express linear equations using point-slope, slope-intercept, and standard form. I can determine an equation for a line through two given points, and a line through one given point with a given slope. [2.2]
+            </description>
+        </outcome>
+        <outcome>
+            <title>Quadratic Equations</title>
+            <slug>EQ4</slug>
+            <path>outcomes/EQ4</path>
+            <description>
+I can solve quadratic equations using factoring, completing the square, and the quadratic formula. [2.5]
+            </description>
+        </outcome>
+        <outcome>
+            <title>Sign Charts</title>
+            <slug>EQ5</slug>
+            <path>outcomes/EQ5</path>
+            <description>
+I can create a complete sign chart for a quadratic or rational inequality. [IA 7.6]
+            </description>
+        </outcome>
+        <outcome>
+            <title>Exponential and Logarithmic Equations</title>
+            <slug>EQ6</slug>
+            <path>outcomes/EQ6</path>
+            <description>
+I can solve basic exponential equations and basic logarithmic equations. [6.5, 6.6]
+            </description>
+          </outcome>
+
+        
+        <outcome>
+            <title>Definition of Function</title>
+            <slug>FN1</slug>
+            <path>outcomes/FN1</path>
+            <description>
+I can use the definition of function to distinguish whether a given relation, equation, or graph defines a function. [3.1] 
+            </description>
+        </outcome>
+         
+        <outcome>
+            <title>Using Function Notation</title>
+            <slug>FN2</slug>
+            <path>outcomes/FN2</path>
+           <description>
+I can use function notation appropriately, and evaluate a function for a given input value. [2.1]
+            </description>
+        </outcome>
+
+        <outcome>
+            <title>Basic Function Graphing</title>
+            <slug>FN3</slug>
+            <path>outcomes/FN3</path>
+            <description>
+I can graph a function by plotting ordered pairs. I can quickly and accurately graph a library of “basic” functions. [2.1]
+            </description>
+        </outcome>
+        <outcome>
+            <title>Slope and Average Rate of Change</title>
+            <slug>FN4</slug>
+            <path>outcomes/FN4</path>
+            <description>
+I can determine the slope between two given points, and the average rate of change of a given function over a given interval. [2.1, 3.3]
+            </description>
+        </outcome>
+
+        <outcome>
+            <title>Reading a Function's Graph</title>
+            <slug>FN5</slug>
+            <path>outcomes/FN5</path>
+            <description>
+I can use a function’s graph to obtain information about a function, including its domain and range, intercepts, maximum and minimum points, and whether it is increasing or decreasing. [2.1, 3.3]
+            </description>
+        </outcome>
+
+        <outcome>
+            <title>Domain and Intercepts of a Function</title>
+            <slug>FN6</slug>
+            <path>outcomes/FN6</path>
+            <description>
+I can use a function’s formula to determine its domain and its x- and y-intercepts. [3.1, 3.2]
+            </description>
+        </outcome>
+
+
+        <outcome>
+            <title>Transforming Functions</title>
+            <slug>FN7</slug>
+            <path>outcomes/FN7</path>
+            <description>
+I can apply transformations including horizontal and vertical shifts, stretches, and reflections to a function. I can express the result of these transformations graphically and algebraically. [3.5]
+            </description>
+        </outcome>
+
+        <outcome>
+            <title>Composite Functions</title>
+            <slug>FN8</slug>
+            <path>outcomes/FN8</path>
+            <description>
+I can simplify composite functions, and evaluate them algebraically and graphically. [3.4]
+            </description>
+        </outcome>
+        <outcome>
+            <title>Inverse Functions</title>
+            <slug>FN9</slug>
+            <path>outcomes/FN9</path>
+            <description>
+I can determine if a function is one-to-one, and compare, contrast, and convert between a function and its inverse function both algebraically and graphically. [3.7]
+            </description>
+        </outcome>
+        <outcome>
+            <title>Linear Models and Meanings</title>
+            <slug>LI1</slug>
+            <path>outcomes/LI1</path>
+            <description>
+I can build linear models from verbal descriptions, and use the models to establish conclusions, including by contextualizing the meaning of slope and intercept parameters. [2.3, 4.2]
+            </description>
+        </outcome>
+        <outcome>
+            <title>Parallel and Perpendicular</title>
+            <slug>LI2</slug>
+            <path>outcomes/LI2</path>
+            <description>
+I can use slope relationships to determine whether two lines are parallel or perpendicular. [2.2]
+            </description>
+        </outcome>
+
+        <outcome>
+            <title>Systems of Two Linear Equations</title>
+            <slug>LI3</slug>
+            <path>outcomes/LI3</path>
+            <description>
+I can solve a system of two linear equations using either a substitution or an elimination method. [7.1]
+            </description>
+        </outcome>
+
+        <outcome>
+            <title>Graphing Quadratic Functions</title>
+            <slug>PR1</slug>
+            <path>outcomes/PR1</path>
+            <description>
+                I can graph quadratic functions using transformations of f(x)=x^2, and identify their axis of symmetry and maximum or minimum point. [5.1]
+            </description>
+        </outcome>
+        <outcome>
+            <title>Quadratic Models and Meanings</title>
+            <slug>PR2</slug>
+            <path>outcomes/PR2</path>
+            <description>
+I can build quadratic models from verbal descriptions, and use the models to establish conclusions. [5.1]
+            </description>
+        </outcome>
+        <outcome>
+            <title>Properties of Polynomial Functions</title>
+            <slug>PR3</slug>
+            <path>outcomes/PR3</path>
+            <description>
+I can use the graph of a polynomial function to determine some of its properties, including the parity of its degree, the sign of its leading coefficient, its zeroes and their multiplicity. [1.4,5.2,5.3]
+            </description>
+        </outcome>
+
+        <outcome>
+            <title>Properties of Rational Functions</title>
+            <slug>PR4</slug>
+            <path>outcomes/PR4</path>
+            <description>
+I can use its formula to find the domain, vertical and horizontal asymptotes, and intercepts of a given rational function. I can use this information along with a sign chart to sketch the graph of a given rational function. [5.6]
+            </description>
+        </outcome>
+
+        <outcome>
+            <title>Exponential Functions</title>
+            <slug>EX1</slug>
+            <path>outcomes/EX1</path>
+            <description>
+I can identify the base and intercept of a given exponential function, evaluate exponential functions, and determine an equation for an exponential function given two data points. [6.1]
+            </description>
+        </outcome>
+        <outcome>
+            <title>Graphs of Exponential Functions</title>
+            <slug>EX2</slug>
+            <path>outcomes/EX2</path>
+            <description>
+I can graph exponential functions and determine algebraically and graphically whether an exponential function represents growth or decay. [7.2]
+            </description>
+        </outcome>
+        <outcome>
+            <title>Logarithmic Functions</title>
+            <slug>EX3</slug>
+            <path>outcomes/EX3</path>
+            <description>
+I can determine an equation for a logarithmic function, its base, and domain, and its graph. [6.3-6.4]
+            </description>
+        </outcome>
+        <outcome>
+            <title>Change of Base</title>
+            <slug>EX4</slug>
+            <path>outcomes/EX4</path>
+            <description>
+I can apply the change of base formula to a logarithmic function. [6.3-6.4]
+            </description>
+        </outcome>        
+    </outcomes>
+</bank>

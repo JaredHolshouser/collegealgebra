@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <intro>
+     <p>
+            Determine the <m>{{w}}</m>-intercept of the line through the point <m>P({{px}},{{py}})</m> which is...
+        </p>
+    </intro>
+    
+    <knowl>
+    <content><p>...<em>parallel</em> to the line <m>{{lhs}} = {{rhs}}</m>.
+            </p>
+        <p><image source="assets/LI2/generated/{{__seed__}}/graph1.png" description="Plot of parallel line through the point P"/></p>
+        </content>
+    <outtro><p>
+            Parallel line equation: <m>{{lhs1}} = {{rhs1}}</m>, or <me>y = {{rhs11}}.</me> Intercepts are <m>({{x1}},0)</m> and <m>(0,{{y1}})</m>.
+        </p>
+        
+        
+        </outtro></knowl>
+    
+    <knowl>
+    <content><p>...<em>perpendicular</em> to the line <m>{{lhs}} = {{rhs}}</m>.
+            </p>
+        <p><image source="assets/LI2/generated/{{__seed__}}/graph2.png" description="Plot of parallel line through the point P"/></p>
+        </content>
+    <outtro><p>
+            Perpendicular line equation: <m>{{lhs2}} = {{rhs2}}</m>, or <me>y = {{rhs22}}.</me> Intercepts are <m>({{x2}},0)</m> and <m>(0,{{y2}})</m>.
+        </p>
+        
+        
+        </outtro></knowl>
+       
+</knowl>

@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <intro>
+        <p>
+            In this first image is a graph of the "parent function" <m>y = {{expr}}</m> and two of its points, <m>P(0,0)</m> and <m>Q(1,1)</m>.
+        </p>
+        <p><image source="assets/FN7/generated/{{__seed__}}/parent.png" description="Graph of parent function"/></p>
+        <p>
+            In this second image is the graph of a transformation <m>y = f(x)</m> of this parent function, and the corresponding points <m>P'({{Px}},{{Py}})</m> and <m>Q'({{Qx}},{{Qy}}).</m>
+        </p>
+        <p><image source="assets/FN7/generated/{{__seed__}}/transform.png" description="Graph of parent function"/></p>
+        
+    </intro>
+    
+    <knowl>
+    <content><p>
+            <em>Find a sequence of 3-5 individual transformation "steps"</em> (horizontal or vertical reflections, stretches/shrinks, shifts) which, performed in order, transform the parent function's graph into the transformed function's graph.</p><p>Describe each individual transformation (for example, "shift right by 4" or "stretch vertically by a factor of 3").
+            </p>
+        </content>
+    <outtro><p>One possible sequence of transformation steps for this graph is:</p>
+        {{#steps}}<p><m>\quad</m>{{step}}</p>{{/steps}}
+        </outtro>
+    </knowl>
+    
+    <knowl>
+    <content><p>
+        <em>Find a formula for the transformed function's graph</em> by showing how the formula for the parent function <m>y = {{parent}}</m> is changed, one step at a time, through each one of the transformations you found in part (a).
+            </p></content>
+    <outtro>
+        <p>This graph has the equation</p>
+        <p><m>\qquad f(x) = {{texpr}}</m></p>
+        <p>(If your answer looks different, try simplifying it further.)</p>
+        </outtro></knowl>
+    
+</knowl>

@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+   <intro>
+    <p>
+        Searching for a relationship between {{#iv}}{{desc}} (<m>{{var}}</m>, measured in {{units}}){{/iv}} and {{#dv}}{{desc}} (<m>{{var}}</m>, measured in {{units}}){{/dv}}, you collect the following three data points:</p>
+            <p><m>\quad \begin{array}{l|rrr} {{#iv}}{{var}} \quad \text{({{units}})}{{/iv}} &amp; {{Px}} &amp; {{Qx}} &amp; {{Rx}} \\ \hline
+            {{#dv}}{{var}} \quad \text{({{units}})}{{/dv}} &amp; {{Py}} &amp; {{Qy}} &amp; {{Ry}}\end{array}</m>
+        </p>
+    </intro>
+    
+    <knowl>
+    <content>
+        <p>Can you tell, from these three data points alone, whether it is possible that there is a <em>function</em> <m>f</m> such that <m>{{#dv}}{{var}}{{/dv}} = f\bigl({{#iv}}{{var}}{{/iv}}\bigr)</m>?</p><p>What about whether <m>{{#iv}}{{var}}{{/iv}} = f\bigl({{#dv}}{{var}}{{/dv}}\bigr)</m>?</p><p> Explain your answers.
+            </p>
+        </content>
+    <outtro>
+        <p>We can tell whether <m>{{y}}</m> is a function of <m>{{x}}</m> from this data by looking for whether the same <m>{{x}}</m> value is associated with more than one unique <m>{{y}}</m> value.</p>
+        <p><m>\quad</m> Since that {{data_x_f_of_y}} the case, the data suggest that <m>{{y}}</m> <em>{{data_y_f_of_x}}</em> a function of <m>{{x}}</m>.</p>
+        <p>We can tell whether <m>{{x}}</m> is a function of <m>{{y}}</m> from this data by looking for whether the same <m>{{y}}</m> value is associated with more than one unique <m>{{x}}</m> value.</p>
+        <p><m>\quad</m> Since that {{data_y_f_of_x}} the case, the data suggest that <m>{{x}}</m> <em>{{data_x_f_of_y}}</em> a function of <m>{{y}}</m>.</p>
+        </outtro></knowl>
+    
+    <knowl>
+    <content><p>Still curious, you plot these three data points on a piece of graph paper. Wandering by, your roommate {{stu}} catches a glance of your graph.
+            </p>
+            <p>"Oh!" {{pn}} say{{suf}}. "I see the pattern in these three points!" Before you can say anything, {{pn}} draw{{suf}} a blue scribbled curve through your three points on the graph.</p>
+        <p><image source="assets/FN1/generated/{{__seed__}}/thegraph.png" description="Data points with a curve sketched through them"/></p>
+        <p>Does {{stu}}'s graph suggest whether it is possible that there is a <em>function</em> <m>f</m> such that <m>{{#dv}}{{var}}{{/dv}} = f\bigl({{#iv}}{{var}}{{/iv}}\bigr)</m>?</p><p>What about whether <m>{{#iv}}{{var}}{{/iv}} = f\bigl({{#dv}}{{var}}{{/dv}}\bigr)</m>?</p><p> Explain your answers.
+            </p>
+         <p>(Remember, your answers should address the mathematical definition of "function" only. You should not need to speculate on whether there is a causal independent-dependent variable relationship between these two quantities... there probably is not!)</p>
+        </content>
+    <outtro>
+        <p>If this graph passes the vertical line test, then every <m>{{x}}</m> value will be associated with at most one <m>{{y}}</m> value.</p>
+        <p><m>\quad</m> Since this {{graph_y_f_of_x}} the case, this graph suggests that <m>{{y}}</m> <em>{{graph_y_f_of_x}}</em> a function of <m>{{x}}</m>.</p>
+        
+        <p>In a similar fashion, if this graph passes the horizontal line test, then every <m>{{y}}</m> value will be associated with at most one <m>{{x}}</m> value.</p>
+        <p><m>\quad</m> Since this {{graph_x_f_of_y}} the case, this graph suggests that <m>{{x}}</m> <em>{{graph_x_f_of_y}}</em> a function of <m>{{y}}</m>.</p>
+        </outtro></knowl>
+</knowl>

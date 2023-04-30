@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <intro>
+    <p>
+            You're the marketing director for {{company}}, and your team has just finished its test-market analysis for your brand-new product, <em>{{product}}</em>: "{{slogan}}".</p>
+        <p>
+            The data your team gathered tested {{n}} different price points for selling {{product}}, and predicted the net profit that {{company}} would make selling at each price point. The data is shown in the table below.
+        </p>
+        <p><m>\displaystyle
+            \begin{array}{r|*{ {{n}} }{r}}\text{ {{product}} price per unit, in \$: } x {{#data}}&amp;\qquad {{x}}{{/data}}\\
+            \text{ {{product}} net profit, in thousands of \$: } y {{#data}}&amp;\qquad {{y}}{{/data}} \end{array}
+            </m></p>
+        <p> If you can model this profit as a quadratic function of unit price, you think to yourself, you can figure out how to make the <em>most</em> profit possible... and that maximum is probably greater than any of the points in this data set!
+        </p>
+    </intro>
+    
+    <knowl>
+    <content><p>Using technology, you graph, and determine a quadratic function <m>y = P(x) = {{pfunc}}</m> that best fits, these {{n}} data points.
+                </p>
+                <p><image source="assets/PR2/generated/{{__seed__}}/parabola.png" description="Graph of quadratic model for this data"/></p>
+                <p>
+                    In 1-2 sentences, explain: What is the <em>leading coefficient</em> in your equation model? What can we learn about {{product}} from the fact that this leading coefficient is negative instead of positive?
+                </p>
+        </content>
+    <outtro><p>
+            The quadratic model for these data points is <m>P(x) = {{pfunc}}</m>.
+        </p>
+        <p>
+            The leading coefficient being negative reflects the fact that this quadratic function reaches a maximum value at its vertex, instead of a negative. (The profit available from selling {{product}} has an upper limit.)
+        </p>
+        </outtro>
+    </knowl>
+    <knowl>
+    <content><p>
+                    In 1-2 sentences, explain: What is the <em>constant term</em> in your equation model? What, specifically, does this number mean about the profits of selling {{product}}?
+                </p>
+                <p>(Hint: What value of <m>x</m> produces this value of <m>y</m>?)</p>
+        </content>
+    <outtro><p>
+            The constant term tells us that, if we gave away all the {{product}} desired in the market for free (charged a unit price of <m>x=0</m> dollars), we would lose $<m>{{absc}}</m> thousand dollars of profit. This is the y-intercept of our function model.
+        </p>
+        </outtro>
+    </knowl>
+    <knowl>
+    <content><p>
+                    At what unit price(s) would we make <em>zero</em> profit from selling {{product}}? Set up an equation whose solution would answer this question, then use the quadratic formula to solve it. Round your answers to two decimal places.
+                </p>
+        </content>
+    <outtro><p>
+            The breakeven prices from solving <m>{{pfunc}} = 0</m> are approximately <m>\${{r1}}</m> and <m>\${{r2}}</m> per unit, respectively.
+        </p>
+        </outtro>
+    </knowl>
+    <knowl>
+    <content><p>
+                    Determine the <em>vertex</em> of your quadratic function. Then, write 1-2 sentences to explain to your CEO (who is not a math professor): what does this vertex mean about how you should set the price for {{product}}? And why?
+                </p>
+        </content>
+    <outtro><p>
+            The vertex for our quadratic model has coordinates <m>({{vx}},{{vy}}).</m> Since by part (a) we know this is a maximum point for our function, we can say the following to our CEO:
+        </p>
+        <p>
+            "The maximum amount of profit available for selling {{product}} is <m>\${{vy}}</m> thousand dollars. We can achieve this profit by charging <m>\${{vx}}</m> per unit for {{product}}."
+        </p>
+        </outtro>
+    </knowl>
+</knowl>
